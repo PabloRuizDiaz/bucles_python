@@ -36,7 +36,16 @@ def ej1():
             x += 1           # Coloque la línea de código para que "X" incremente "1"
             continue
         break
-        
+    
+    # Inove: La resolución del problema anterior es válida, pero existe una forma
+    # resolverlo sin tener que utilizar continuo o break ya que la condición es conocida
+    # y no alterable
+    x = 0
+    while x < 6:     # "condicion" reemplazada por "x < 6"
+        print("Valor de x =", x)
+        x += 1           # Coloque la línea de código para que "X" incremente "1"
+    
+    
     # Dado el siguiente "while", complete la condicion
     # para que el "while" itere siempre que <x sea mayor o igual a 0>
     # Además, complete la línea de código necesaria para que
